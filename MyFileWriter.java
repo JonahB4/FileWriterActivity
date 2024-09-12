@@ -20,11 +20,12 @@ public class MyFileWriter {
 
     }
 
+    // printFileSize - prints the length of the contoents of the file
     public static void printFileSize(String fileName) {
         // implement my print filesize
         File file = new File(fileName);
         long fileSize = file.length();
-        System.out.println(fileSize);
+        System.out.println("The length of the file is " + fileSize);
     }
 
 }
