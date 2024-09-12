@@ -20,4 +20,9 @@ public class MyFileWriter {
 
     }
 
+    public static void printFileSize(String fileName) {
+        // implement my print filesize
+
+    }
+
 }
