@@ -25,6 +25,7 @@ public class tester {
         }
 
         File file = new File(repositoryPath + "/" + fileName);
+        fileWriter.printFileSize("SillyClass.java");
 
     }
 
